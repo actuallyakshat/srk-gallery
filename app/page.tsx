@@ -32,7 +32,7 @@ export default function Home() {
   );
 }
 
-export function VideoModal({ isOpen, setIsOpen, videoURL }: {
+function VideoModal({ isOpen, setIsOpen, videoURL }: {
   isOpen: boolean;
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
   videoURL: string;
